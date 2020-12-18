@@ -8,7 +8,7 @@ ee.Initialize()
 # Exclusive Landsat
 
 import json
-f = "/home/anthony/Documents/Doctorat/PROD/Floodedmap/MARCHIQUITA.json"
+f = "../MARCHIQUITA.json"
 with open(f) as json_file:
     data = json.load(json_file)
 # This one is geodesic 
