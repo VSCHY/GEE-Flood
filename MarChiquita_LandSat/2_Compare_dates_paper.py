@@ -37,6 +37,9 @@ Dates["CASE 3"]     = ["229081", "20170411"]
 Dates["CASE 3 - a"] = ["228081", "20170319"]
 Dates["CASE 3 - b"] = ["228081", "20170420"]
 
+Dates["CASE 4"]     = ["228081", "20140412"]
+Dates["CASE 4 - a"] = ["229081", "20140419"]
+
 
 m = geemap.Map(location=[-30, -64], zoom_start=8)
 for d in Dates.keys():
